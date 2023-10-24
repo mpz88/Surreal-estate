@@ -1,0 +1,37 @@
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid grey;
+  }
+  
+  .logo-container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .logo {
+    width: 200px; 
+  }
+  
+  .logo-name {
+    font-size:50px; 
+    font-weight: bold;
+    margin-left: 10px; 
+  }
+  
+  .navbar-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  .navbar-links-item {
+    display: inline;
+    margin-right: 20px;
+  }
+  .navbar-links-item {
+    margin: 0;
+    padding: 10px; 
+    display: inline-block;
+    text-decoration: none; 
+    margin-right: 20px;
+  }

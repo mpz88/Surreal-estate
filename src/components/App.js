@@ -1,9 +1,13 @@
-import '../styles/app.css';
+import React from "react";
+import NavBar from "./NavBar";
+import "../styles/app.css";
 
-function App() {
+const App = () => {
   return (
-    <h2>Surreal estate</h2>
+    <div>
+      <NavBar />
+    </div>
   );
-}
+};
 
 export default App;
