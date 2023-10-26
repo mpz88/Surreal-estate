@@ -1,0 +1,18 @@
+/* properties.css */
+
+/* Style for the main container of the properties page */
+.properties-container {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style for the title */
+  .properties-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
