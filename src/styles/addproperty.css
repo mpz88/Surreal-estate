@@ -1,18 +1,55 @@
-/* properties.css */
-
-/* Style for the main container of the properties page */
+/* Style for the form container */
 .addproperty-container {
-    padding: 20px;
-    margin: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  /* Style for the title */
-  .addproperty-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
+  padding: 20px;
+  margin: 20px;
+  background-color: #e3bebe;
+  border: 2px solid #aca5a5;
+  border-radius: 5px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Style for the form title */
+.addproperty-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for form groups (wrappers for input fields) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style for labels */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px; /* Increased margin */
+}
+
+/* Style for input fields and selects */
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 5px; /* Added margin-top */
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
